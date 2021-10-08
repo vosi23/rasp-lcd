@@ -1,0 +1,14 @@
+pentru cunostinte generale
+	*sudo raspi-config -> interface -> enable I2C 
+
+	*librariile care se descarca prin pip: /usr/local/lib/python3.7/dist-packages
+	
+	*pentru a scana care device e i2c (adresa lui): i2cdetect -y 1
+
+pentru rpi_lcd
+	1. pip3 install rpi_lcd
+	2. mai multe informatii in test1.py 
+
+pentru lcd etc
+	git clone https://github.com/the-raspberry-pi-guy/lcd
+	sudo sh install.sh
